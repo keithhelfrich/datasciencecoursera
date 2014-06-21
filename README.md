@@ -95,5 +95,3 @@ Find additional detail re: R objects described here in the `CodeBook.md`.
 #### <ins>Tidy Dataset Details</ins>
 
 The clean and tidy datasets produced are available in `csv` and `txt` format in the top level of this repository.
-
-
