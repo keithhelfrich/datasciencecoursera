@@ -85,7 +85,7 @@ Processing is performed by `run_analysis.R` in the following stages.
    6. "### Binding                ###" - creates a clean & tidy data frame
    7. "### Writing                ###" - writes clean_data.csv & clean_data.txt
    8. "### Melting                ###" - melts the clean & tidy data frame with subjectID & activityName as IDs and all other fields as Measures
-   9. "### Decasting              ###" - decasts the molten data frame with aggregation on average per subjectID and activityName
+   9. "### Decasting              ###" - decasts the molten data frame with aggregation on average per subjectID and activityName 
   10. "### Writing                ###" - writes the decast data as tidy_data.csv and tidy_data.txt
   11. "### All Done!              ###" - all done!
 

@@ -93,7 +93,7 @@ A detailed description is found in `README.md`. Find below additional re: the da
       - all remaining fields are defined as Measures: at this point, only those with mean() and std() remain
       - with the above criteria, the `cleanData` data frame is melted into `meltedData` 
    9. "### Decasting              ###" - decasts the molten data frame with aggregation on average per subjectID and activityName
-      - meltedData is summarized using the decast() function, to calculate an average for each measure by the two ID variables: subjectID & activityName
+      - meltedData is summarized using the decast() function, to calculate an average for each measure by the two ID variables: subjectID & activityName 
   10. "### Writing                ###" - writes the decast data as tidy_data.csv and tidy_data.txt
       - the second data set is written to disk in two formats: csv and tab delimited
       - each row represents one subject performing one activity
